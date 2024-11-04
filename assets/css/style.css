@@ -24,6 +24,9 @@ button {
     display: grid;
     gap: 1rem; /* アイテム間の隙間 */
     background-color:  #e9fced;
+    list-style: none; /* 箇条書きの点を消す */
+    padding: 0; /* デフォルトのパディングを削除 */
+    margin: 0; /* デフォルトのマージンを削除 */    
 }
 
 .grid-col-2 {

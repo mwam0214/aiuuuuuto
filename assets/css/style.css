@@ -30,6 +30,12 @@ button {
     grid-template-columns: repeat(2, 1fr); /* 2列のレイアウト */
 }
 
+@media (max-width: 600px) { /* スマホ用（600px以下） */
+    .grid {
+        grid-template-columns: 1fr; /* 1列に変更 */
+    }
+}
+
 .grid-item {
     background: #e9fced; /* 背景色（必要に応じて調整） */
     
